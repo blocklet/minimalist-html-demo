@@ -1,8 +1,6 @@
 # Minimalist HTML Demo
 
-A minimalist Blocklet demo with plain HTML. It simply output a "hello world" web page.  
-
-
+A minimalist Blocklet demo with plain HTML. It's simple a web page.  
 
 ## Run and debug in the cloud with Gitpod
 
