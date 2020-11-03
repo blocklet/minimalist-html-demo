@@ -12,7 +12,6 @@ Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.<
 yarn global add @abtnode/cli
 git clone git@github.com:blocklet/minimalist-html-demo.git
 cd minimalist-html-demo
-yarn
 abtnode init --mode debug
 abtnode start
 abtnode dev
