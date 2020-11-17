@@ -8,6 +8,14 @@ Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.<
 
 ## Run and debug locally
 
+If you have not installed ABT Node localy, you can do it using the following command:
+
+`yarn global add @abtnode/cli`
+
+You can get more details on installing ABT Node by visiting the Get Started with ABT Node page.
+
+Clone the repo and start development using ABT Node's Debug Mode for this Blocklet.
+
 ```shell
 yarn global add @abtnode/cli
 git clone git@github.com:blocklet/minimalist-html-demo.git
@@ -16,6 +24,24 @@ abtnode init --mode debug
 abtnode start
 abtnode dev
 ```
+
+## Bundle and Package
+
+(Coming Soon)
+
+## Install to your ABT Node
+
+If you have your own ABT Node and just want to try out this blocklet, simply click the following button to install: **Coming Soon**
+
+Or alternatively, you can find install this demo blocklet in Blocklets Marketplace or from the **"Blocklet or Marketplace"** action icsons from our ABT Node dashboard.
+
+## Learn more about ABT Node and Blocklets
+
+[ABT Node Overview](https://docs.arcblock.io/en/abtnode/introduction/abtnode-overview)
+[Get started with ABT Node](https://www.arcblock.io/en/get-started)
+[ABT Node CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
+[Blocklet Development Documents](https://docs.arcblock.io/en/abtnode/developer/blocklet-spec)
+[Blocklet Overview](https://www.arcblock.io/en/blocklet)
 
 ## License
 
