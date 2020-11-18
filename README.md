@@ -37,11 +37,11 @@ Or alternatively, you can find install this demo blocklet in Blocklets Marketpla
 
 ## Learn more about ABT Node and Blocklets
 
-[ABT Node Overview](https://docs.arcblock.io/en/abtnode/introduction/abtnode-overview)
-[Get started with ABT Node](https://www.arcblock.io/en/get-started)
-[ABT Node CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
-[Blocklet Development Documents](https://docs.arcblock.io/en/abtnode/developer/blocklet-spec)
-[Blocklet Overview](https://www.arcblock.io/en/blocklet)
+- [ABT Node Overview](https://docs.arcblock.io/en/abtnode/introduction/abtnode-overview)
+- [Get started with ABT Node](https://www.arcblock.io/en/get-started)
+- [ABT Node CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
+- [Blocklet Development Documents](https://docs.arcblock.io/en/abtnode/developer/blocklet-spec)
+- [Blocklet Overview](https://www.arcblock.io/en/blocklet)
 
 ## License
 
