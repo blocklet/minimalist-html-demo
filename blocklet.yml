@@ -1,0 +1,16 @@
+name: minimalist-html-demo
+version: 1.0.0
+main: .
+author: Arcblock
+repository: 'git@github.com:blocklet/minimalist-html-demo.git'
+description: >-
+  Blocklet from
+  /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/minimalist-html-demo
+group: static
+publicUrl: /
+capabilities:
+  dynamicPathPrefix: true
+charging:
+  price: 0
+did: z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q
+specVersion: 1.0.0
