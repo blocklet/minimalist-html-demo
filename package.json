@@ -1,0 +1,11 @@
+{
+  "name": "minimalist-html-demo",
+  "version": "1.0.0",
+  "main": ".",
+  "repository": "git@github.com:blocklet/minimalist-html-demo.git",
+  "author": "Arcblock",
+  "license": "MIT",
+  "files": [
+    "index.html"
+  ]
+}
