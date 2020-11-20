@@ -1,16 +1,30 @@
 name: minimalist-html-demo
+version: 1.0.1
+main: .
+repository:
+  type: git
+  url: 'git+ssh://git@github.com/blocklet/minimalist-html-demo.git'
+author:
+  name: Arcblock
+license: MIT
+files:
+  - index.html
 description: >-
   Blocklet from
   /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/minimalist-html-demo
 group: static
-version: 1.0.1
-main: .
-publicUrl: /
-author: Arcblock
-charging:
-  price: 0
-repository: 'git@github.com:blocklet/minimalist-html-demo.git'
-capabilities:
-  dynamicPathPrefix: true
-specVersion: 1.0.0
+specVersion: 1.0.1
 did: z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q
+community: ''
+documentation: ''
+homepage: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
+scripts: {}
