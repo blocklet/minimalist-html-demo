@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "clean": "rm -rf .blocklet",
-    "release": "npm run clean && abtnode bundle --create-release",
-    "deploy": "npm run release && abtnode deploy .blocklet/bundle"
+    "bundle": "npm run clean && abtnode bundle --create-release",
+    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
   }
 }
