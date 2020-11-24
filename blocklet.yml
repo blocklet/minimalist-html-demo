@@ -1,5 +1,5 @@
 name: minimalist-html-demo
-version: 1.0.1
+version: 1.0.2
 main: .
 repository:
   type: git
@@ -28,3 +28,7 @@ interfaces:
 environments: []
 screenshots: []
 scripts: {}
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: true
