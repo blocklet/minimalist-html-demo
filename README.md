@@ -25,8 +25,8 @@ yarn global add @abtnode/cli
 git clone git@github.com:blocklet/minimalist-html-demo.git
 cd minimalist-html-demo
 abtnode init --mode debug
-abtnode start
-abtnode dev
+blocklet start
+blocklet dev
 ```
 
 ## Bundle and Package
