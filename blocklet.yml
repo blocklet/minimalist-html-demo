@@ -8,10 +8,14 @@ author:
   name: Arcblock
 license: MIT
 files:
+  - blocklet.md
+  - README.md
   - index.html
-description: >-
-  Blocklet from
-  /Users/linchen/code/blocklet/blocklet-migrate-ci/workspaces/minimalist-html-demo
+keywords:
+  - static
+  - demo
+  - html
+description: A minimalist Blocklet demo with plain HTML. It's simple a web page.
 group: static
 specVersion: 1.0.1
 did: z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q
