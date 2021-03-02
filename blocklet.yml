@@ -1,4 +1,5 @@
 name: minimalist-html-demo
+title: Simple HTML Demo
 version: 1.0.3
 main: .
 repository:
