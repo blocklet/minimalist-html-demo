@@ -1,5 +1,5 @@
 name: minimalist-html-demo
-version: 1.0.3
+version: 1.0.4
 main: .
 repository:
   type: git
@@ -11,6 +11,7 @@ files:
   - blocklet.md
   - README.md
   - index.html
+title: Simple HTML Demo
 keywords:
   - static
   - demo
