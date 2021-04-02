@@ -1,5 +1,5 @@
 name: minimalist-html-demo
-version: 1.0.4
+version: 1.0.5
 main: .
 repository:
   type: git
@@ -39,3 +39,8 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
+charging:
+  price: 0
+  tokens: []
+  shares: []
+children: []
