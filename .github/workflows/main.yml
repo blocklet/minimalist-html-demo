@@ -18,10 +18,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Init
-      - run: sudo npm install -g @abtnode/cli
+      run: sudo npm install -g @abtnode/cli
     
     - name: Build
-      - run: rm -rf .blocklet && blocklet bundle --create-release
+      run: rm -rf .blocklet && blocklet bundle --create-release
 
     - name: Release to Github
       uses: blocklet/action-release-to-github@v1.0.0
