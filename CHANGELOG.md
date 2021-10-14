@@ -1,3 +1,7 @@
+## 1.0.8 (十月 14, 2021)
+
+- remove tools/publish.sh
+
 ## 1.0.7 (十月 14, 2021)
 
 - use action-workflow
