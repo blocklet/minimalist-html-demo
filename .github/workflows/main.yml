@@ -1,4 +1,4 @@
-name: Release
+name: Blocklet workflow
 
 on:
   push:
@@ -7,31 +7,19 @@ on:
 
 jobs:
   Deploy:
-
     runs-on: ubuntu-latest
 
     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
 
-    - name: Checkout repo
-      uses: actions/checkout@v2
-
-    - name: Init
-      run: sudo npm install -g @abtnode/cli
-    
-    - name: Build
-      run: rm -rf .blocklet && blocklet bundle --create-release
-
-    - name: Release to Github
-      uses: blocklet/action-release-to-github@v1.0.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Release to registry
-      env:
-        STAGING_REGISTRY: ${{ secrets.STAGING_REGISTRY }}
-        ABTNODE_DEV_STAGING_SK: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
-      run: |
-        blocklet config registry ${STAGING_REGISTRY} && \
-        blocklet publish --developer-sk ${ABTNODE_DEV_STAGING_SK}
+      - name: Blocklet workflow
+        uses: blocklet/action-workflow@v0.2.2
+        with:
+          bundle-command: yarn bundle
+          skip-upload: false
+          registry-endpoint: ${{ secrets.STAGING_REGISTRY }}
+          developer-sk: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,10 +1,10 @@
 # Minimalist HTML Demo
 
-A minimalist Blocklet demo with plain HTML. It's simple a web page.  
+A minimalist Blocklet demo with plain HTML. It's simple a web page.
 
 ## Install on my ABT Node
 
-[![Install on my ABT Node](https://raw.githubusercontent.com/blocklet/development-guide/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fminimalist-html-demo%2Freleases%2Fdownload%2F1.0.6%2Fblocklet.json)
+[![Install on my ABT Node](https://raw.githubusercontent.com/blocklet/development-guide/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fminimalist-html-demo%2Freleases%2Fdownload%2Fv1.0.6%2Fblocklet.json)
 
 ## Run and debug in the cloud with Gitpod
 
@@ -51,4 +51,3 @@ Or alternatively, you can find install this demo blocklet in Blocklets Marketpla
 
 The code is licensed under the MIT license found in the
 [LICENSE](LICENSE) file.
-
