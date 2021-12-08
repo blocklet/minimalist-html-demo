@@ -1,5 +1,5 @@
 name: minimalist-html-demo
-version: 1.0.9
+version: 1.0.10
 main: .
 repository:
   type: git
@@ -18,7 +18,7 @@ keywords:
   - html
 description: A minimalist Blocklet demo with plain HTML. It's simple a web page.
 group: static
-specVersion: 1.1.1
+specVersion: 1.2.0
 did: z8iZjejYpy7TeJbTq6oXLbVgXemAMbpqwM17Q
 community: ''
 documentation: ''
@@ -39,10 +39,9 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
-charging:
-  price: 0
-  tokens: []
-  shares: []
+payment:
+  price: []
+  share: []
 children: []
 capabilities:
   clusterMode: false

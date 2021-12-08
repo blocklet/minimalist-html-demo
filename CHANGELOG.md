@@ -1,3 +1,7 @@
+## 1.0.10 (十二月 08, 2021)
+
+- chore: upgrade blocklet.yml
+
 ## 1.0.9 (十月 29, 2021)
 
 - [skip ci] Update README.md
