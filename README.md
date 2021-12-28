@@ -2,29 +2,25 @@
 
 A minimalist Blocklet demo with plain HTML. It's simple a web page.
 
-## Install on my ABT Node
-
-[![Install on my ABT Node](https://raw.githubusercontent.com/blocklet/development-guide/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fminimalist-html-demo%2Freleases%2Fdownload%2Fv1.0.10%2Fblocklet.json)
-
 ## Run and debug in the cloud with Gitpod
 
-Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.<br>[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/minimalist-html-demo)
+Click the "Open in Gitpod" button, Gitpod will start Blocklet Server and the blocklet.<br>[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/minimalist-html-demo)
 
 ## Run and debug locally
 
-If you have not installed ABT Node localy, you can do it using the following command:
+If you have not installed Blocklet Server localy, you can do it using the following command:
 
-`yarn global add @abtnode/cli`
+`yarn global add @blocklet/cli`
 
-You can get more details on installing ABT Node by visiting the Get Started with ABT Node page.
+You can get more details on installing Blocklet Server by visiting the Get Started with Blocklet Server page.
 
-Clone the repo and start development using ABT Node's Debug Mode for this Blocklet.
+Clone the repo and start development using Blocklet Server's Debug Mode for this Blocklet.
 
 ```shell
-yarn global add @abtnode/cli
+yarn global add @blocklet/cli
 git clone git@github.com:blocklet/minimalist-html-demo.git
 cd minimalist-html-demo
-abtnode init --mode debug
+blocklet server init --mode debug
 blocklet start
 blocklet dev
 ```
@@ -33,17 +29,17 @@ blocklet dev
 
 (Coming Soon)
 
-## Install to your ABT Node
+## Install to your Blocklet Server
 
-If you have your own ABT Node and just want to try out this blocklet, simply click the following button to install: **Coming Soon**
+If you have your own Blocklet Server and just want to try out this blocklet, simply click the following button to install: **Coming Soon**
 
-Or alternatively, you can find install this demo blocklet in Blocklets Marketplace or from the **"Blocklet or Marketplace"** action icsons from our ABT Node dashboard.
+Or alternatively, you can find install this demo blocklet in Blocklets Marketplace or from the **"Blocklet or Marketplace"** action icsons from our Blocklet Server dashboard.
 
-## Learn more about ABT Node and Blocklets
+## Learn more about Blocklet Server and Blocklets
 
-- [ABT Node Overview](https://docs.arcblock.io/en/abtnode/introduction/abtnode-overview)
-- [Get started with ABT Node](https://www.arcblock.io/en/get-started)
-- [ABT Node CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
+- [Blocklet Server Overview](https://docs.arcblock.io/en/abtnode/introduction/abtnode-overview)
+- [Get started with Blocklet Server](https://www.arcblock.io/en/get-started)
+- [Blocklet Server CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
 - [Blocklet Development Documents](https://docs.arcblock.io/en/abtnode/developer/blocklet-spec)
 - [Blocklet Overview](https://www.arcblock.io/en/blocklet)
 
