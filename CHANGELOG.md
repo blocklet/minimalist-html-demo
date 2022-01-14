@@ -1,3 +1,7 @@
+## 1.0.12 (一月 14, 2022)
+
+- [skip ci] Update README.md
+
 ## 1.0.11 (December 28, 2021)
 
 - chore: update docs/scripts (abtnode rebranding)
