@@ -1,3 +1,7 @@
+## 1.0.16 (September 28, 2023)
+
+- chore: update blocklet.yml
+
 ## 1.0.15 (一月 14, 2022)
 
 - [skip ci] Update README.md
